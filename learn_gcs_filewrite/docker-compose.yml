@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+ cache:
+   image: redis:6.2-alpine
+   restart: always
+   ports:
+     - '6399:6379'
+   command: redis-server --save 20 1 --loglevel warning --requirepass redislocal
+   volumes:
+     - ./redis-cache-data:/data
+ fake-gcs:
+   image: fsouza/fake-gcs-server
+   restart: always
+   ports:
+     - '4443:4443'
+   command: -public-host localhost:4443 -scheme http
+   volumes:
+     - ./schema/gcs:/data

@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+ fake-gcs:
+   image: fsouza/fake-gcs-server
+   restart: always
+   ports:
+     - '4443:4443'
+   command: -public-host localhost:4443 -scheme http
+   volumes:
+     - ./schema/gcs:/data
