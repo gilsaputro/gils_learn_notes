@@ -1,0 +1,5 @@
+curl -X POST http://localhost:8080/api/json -H "Content-Type: application/json" -d '{"key": "value"}'
+
+curl http://localhost:8080/api/id/123
+
+curl http://localhost:8080/api/query?param=test

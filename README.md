@@ -7,9 +7,9 @@ Welcome to the Learning Path with Go repository! 🚀 This is my personal collec
 
 Explore the world of Go web development by checking out powerful frameworks that facilitate building robust and scalable web applications. Each framework comes with a checkbox, so you can keep track of your exploration progress.
 
-- [ ] **Gin** - Lightweight and fast web framework.
-- [ ] **Echo** - Simple and elegant framework for building web applications.
-- [ ] **Beego** - Full-featured web framework with MVC support.
+- [v] **Gin** - Lightweight and fast web framework.
+- [v] **Echo** - Simple and elegant framework for building web applications.
+- [v] **Beego** - Full-featured web framework with MVC support.
 - [ ] **Revel** - High-productivity framework for building web applications.
 - [ ] **Buffalo** - Web development eco-system for Go including a web framework, Job processing system, and more.
 - [ ] **Fiber** - Express.js inspired web framework with a focus on performance.
